@@ -7,3 +7,6 @@ body {
 code {
     background-color:grey;
 }
+p {
+    border: 1px solid;
+}
