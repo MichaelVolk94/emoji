@@ -1,4 +1,4 @@
-const items=[128512, 128521, 128533]
+const items=[128512, 128521, 128533, 128550, 128552, 128556, 128562, 128586, 129303, 129315, 129323, 129488]
 const $items=document.getElementById('items')
 const html=[]
 for(const item of items){
@@ -7,5 +7,8 @@ for(const item of items){
 <code>${item}</code>
 </p>`)
   } 
-  
+
+
   $items.innerHTML = html.join('')
+  
+
