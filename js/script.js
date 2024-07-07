@@ -8,8 +8,7 @@ for(const item of items){
 <code>${item}</code>
 </p>`)
   } 
-
-
+  
   $items.innerHTML = html.join('')
   
 
